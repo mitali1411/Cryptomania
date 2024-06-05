@@ -1,0 +1,24 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+} */
+h3, h4{
+  color: rgb(216, 138, 217);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
