@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "https://auth-backend-93eo.onrender.com/api/user/";
+const API_URL = "https://authentication-2-qgze.onrender.com/api/user";
 
 // REGISTER
 
