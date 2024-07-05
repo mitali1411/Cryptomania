@@ -57,7 +57,7 @@ const Register = () => {
         if(isError || message){
             toast.error(message)
         }
-    }, [isError, message]);
+    }, [isError, message,user,isSuccess]);
     
     if(isLoading) {
         return (
