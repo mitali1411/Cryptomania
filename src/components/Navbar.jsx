@@ -21,7 +21,7 @@ const Navbar = () => {
   }
 
   return (
-        <AppBar color='secondary'>
+        <AppBar color='primary'>
             <Toolbar>
             <Typography sx={{ flexGrow: 1 }} variant="h6"><Link to={"/"}>Crypto Mania</Link></Typography>
             
@@ -29,7 +29,7 @@ const Navbar = () => {
                 user ? (
                   <>
                     <Badge badgeContent={cartItems.length} color='warning' sx={{margin:'0px 20px'}}>
-                      <Button variant='contained' size='small' endIcon={<ShoppingCartIcon/>} ><Link to={'/cart'}>Cart</Link></Button>
+                      <Button variant='contained' size='small' color='secondary' endIcon={<ShoppingCartIcon/>} ><Link to={'/cart'}>Cart</Link></Button>
                     </Badge>
 
                     <Button variant='contained' size='small' endIcon={<LogoutIcon/>} color='error' onClick={handleLogout}> <Link to={''}>Log Out</Link></Button>

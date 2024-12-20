@@ -9,13 +9,13 @@ const CoinCard = ({ coin }) => {
 
         <Grid item xs={6} sm={4} md={3} lg={2}>
             <Card >
-                <CardMedia sx={{height : 180}} image={coin.large}/>
+                <CardMedia sx={{height : 180}} image={coin?.large}/>
                 <CardContent>
                 {/* <Typography variant='h6' noWrap>{coin.coin_id}</Typography> */}
-                    <Typography variant='h6' noWrap>{coin.name}</Typography>
+                    <Typography variant='h6' noWrap>{coin?.name}</Typography>
                 </CardContent>
                 <CardActions>
-                <Link to={`/coin/${coin.id}`}><Button size='small' variant='contained'>Learn More</Button></Link>
+                <Link to={`/coin/${coin?.id}`}><Button size='small' variant='contained'>Learn More</Button></Link>
                 </CardActions>
             </Card>
         </Grid>

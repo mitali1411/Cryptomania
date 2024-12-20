@@ -16,19 +16,19 @@ const App = () => {
   const theme = createTheme({
     palette : {
       primary : {
-        main : '#B784B7'
+        main : '#012677'
       },
       secondary : {
-        main : '#E493B9'
+        main : '#005bc5'
       },
       error : {
-        main : '#EEA5A6'
+        main : '#d31900'
       },
       warning : {
-        main : '#BE3144'
+        main : '#ffbc11'
       },
       success: {
-        main : '#9E7777'
+        main : '#09c184'
       }
     }
   })

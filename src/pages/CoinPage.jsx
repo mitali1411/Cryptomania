@@ -38,9 +38,9 @@ const CoinPage = () => {
 
   return (
     <Container sx={{padding: '80px 0px'}}>
-        <Typography variant='h3' align='center'>{coin?.name} Coin Details</Typography>
+        <Typography variant='h3' align='center' color="primary">{coin?.name} Coin Details</Typography>
         <Card sx={{margin: '50px 0px'}}>
-            <CardMedia src={coin?.image.large} sx={{height: 240}}/>
+            <CardMedia sx={{height : 300}} image={coin?.large}/>
             <CardContent>
                 <Typography variant='h5'>Coin Symbol : {coin?.symbol}</Typography>
                 <Typography variant='h5'>Coin Price : $ {coin?.market_data.current_price.usd}</Typography>

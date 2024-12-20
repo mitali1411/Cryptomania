@@ -20,7 +20,7 @@ import {
   
     return (
       <Container sx={{ padding: "80px 0px" }}>
-        <Typography variant="h4" align="center">
+        <Typography variant="h4" align="center" color="primary">
           Your Cart
         </Typography>
   

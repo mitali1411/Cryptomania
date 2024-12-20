@@ -36,7 +36,7 @@ const Home = () => {
           sx={{ margin: "20px 0px" }}
           variant="h5"
           align="center"
-          color={"error"}
+          color="error"
         >
           Something Went Wrong...
         </Typography>
@@ -49,7 +49,7 @@ const Home = () => {
   return (
     <>
       <Container sx={{ padding: "80px 0px" }}>
-        <Typography variant='h4' align='center'>Trending Crypto Coins</Typography>
+        <Typography variant='h4' align='center' color="primary">Trending Crypto Coins</Typography>
      
         <Grid container spacing={3} sx={{margin:'40px 0px',}}>
       {coins.map((coin) => (
