@@ -19,7 +19,7 @@ const Home = () => {
     }
 
     dispatch(fetchTrending());
-  }, []);
+  }, [user]);
 
   if (isLoading) {
     return (

@@ -36,8 +36,8 @@ const Navbar = () => {
                   </>
                 ) : (
                   <>
-                    <Button variant='contained' size='small' endIcon={<LoginIcon/>}><Link to={'/login'}>Login</Link></Button>
-                    <Button variant='contained' size='small' sx={{margin : '0px 10px'}} color='success' endIcon={<PersonAddIcon/>}><Link to={'/register'}>Register</Link></Button>
+                    <Button variant='contained' size='small'color='secondary' endIcon={<LoginIcon/>}><Link to={'/login'}>Login</Link></Button>
+                    <Button variant='contained' size='small' sx={{margin : '0px 10px'}} color='warning' endIcon={<PersonAddIcon/>}><Link to={'/register'}>Register</Link></Button>
 
                   </>
                 )
