@@ -64,7 +64,7 @@ const Login = () => {
   return (
     <>
         <Container>
-            <Typography variant='h3' align='center' sx={{padding: '100px 0px'}}>Login</Typography>
+            <Typography variant='h3' align='center' color="primary" sx={{padding: '100px 0px'}}>Login</Typography>
             <Card sx={{padding:'20px 20px'}}>
                 <CardContent>
                     <form onSubmit={handleSubmit}>

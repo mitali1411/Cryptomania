@@ -78,7 +78,7 @@ const Register = () => {
   return (
     <>
     <Container>
-        <Typography variant='h3' align='center' sx={{padding: '100px 0px'}}>Register</Typography>
+        <Typography variant='h3' align='center' color="primary" sx={{padding: '100px 0px'}}>Register</Typography>
         <Card sx={{padding:'20px 20px'}}>
             <CardContent>
                 <form onSubmit={handleSubmit}>
